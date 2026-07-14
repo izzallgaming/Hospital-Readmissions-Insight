@@ -54,7 +54,6 @@ Primary analysis used **synthetic hospital readmission data** modeled on real NY
 
 I explored public datasets including:
 - **MIMIC-IV Demo** (PhysioNet): [https://physionet.org/content/mimic-iv-demo/](https://physionet.org/content/mimic-iv-demo/)
-- Diabetes 130-US Hospitals dataset
 
 The MIMIC-IV demo had limited rows and weak relationships, so synthetic data was used for a complete project.
 
