@@ -1,0 +1,701 @@
+patient_id,age,gender,race,payer,admission_type,primary_diagnosis,length_of_stay,discharge_disposition,num_medications,num_procedures,prior_emergency_visits,prior_inpatient_visits,readmitted_30_days,Above_Avg_Meds
+P00001,76,Female,Black,Medicare,Emergency,Heart Failure,8,Home,9,2,0,0,Yes,No
+P00002,73,Male,White,Medicaid,Urgent,Heart Failure,5,Home,9,2,0,1,No,No
+P00003,65,Female,White,Medicare,Emergency,Heart Failure,7,SNF,6,2,0,0,Yes,No
+P00004,63,Male,White,Medicare,Emergency,Other,10,Home,2,4,2,0,No,No
+P00005,73,Female,Other,Medicaid,Urgent,Sepsis,11,Home Health,11,3,0,1,No,Yes
+P00006,67,Male,Hispanic,Medicaid,Urgent,Sepsis,6,Home,7,3,2,0,Yes,No
+P00007,75,Female,White,Medicaid,Emergency,COPD,10,Home,7,2,0,2,No,No
+P00008,92,Female,Black,Medicare,Emergency,Heart Failure,10,Rehab,10,1,0,0,Yes,Yes
+P00009,74,Male,White,Medicare,Emergency,Sepsis,9,Home,6,1,0,0,Yes,No
+P00010,85,Male,Other,Medicare,Emergency,Other,8,Home,12,3,1,0,No,Yes
+P00011,95,Male,White,Medicare,Emergency,AMI,9,Home,12,2,1,1,Yes,Yes
+P00012,81,Male,White,Private,Emergency,AMI,6,Home,9,3,1,0,No,No
+P00013,95,Male,White,Self-Pay,Elective,COPD,6,Home,8,0,2,1,No,No
+P00014,73,Female,White,Medicare,Urgent,Other,6,SNF,8,4,1,0,Yes,No
+P00015,59,Female,Black,Private,Emergency,Pneumonia,2,SNF,5,0,0,0,No,No
+P00016,68,Male,Black,Medicaid,Elective,Other,8,Home,4,2,5,0,Yes,No
+P00017,78,Female,Other,Medicare,Emergency,Sepsis,5,Home,10,2,0,0,No,Yes
+P00018,70,Female,Black,Medicaid,Emergency,Pneumonia,2,Home,8,0,2,0,Yes,No
+P00019,53,Male,White,Medicare,Elective,Other,7,Home,2,4,0,3,Yes,No
+P00020,72,Male,White,Medicare,Emergency,COPD,5,Home,6,2,0,1,Yes,No
+P00021,95,Female,Other,Medicare,Emergency,Sepsis,8,Home,15,3,3,0,Yes,Yes
+P00022,63,Female,Black,Medicaid,Emergency,Sepsis,4,Home Health,8,1,4,2,Yes,No
+P00023,60,Male,White,Self-Pay,Urgent,Heart Failure,6,Home Health,2,0,0,2,No,No
+P00024,68,Female,White,Private,Urgent,Pneumonia,4,Home,6,3,1,0,No,No
+P00025,55,Female,Hispanic,Medicaid,Emergency,AMI,6,SNF,2,0,0,0,Yes,No
+P00026,87,Male,Black,Medicare,Emergency,Sepsis,5,Home,10,1,2,2,No,Yes
+P00027,93,Female,Black,Medicare,Emergency,Sepsis,5,Rehab,9,3,0,2,Yes,No
+P00028,35,Male,White,Medicare,Emergency,Other,5,Home Health,2,5,1,0,No,No
+P00029,72,Female,White,Self-Pay,Urgent,AMI,2,Home,8,2,1,3,No,No
+P00030,49,Male,Hispanic,Medicare,Emergency,COPD,4,Home,3,1,2,1,No,No
+P00031,82,Male,White,Medicare,Emergency,COPD,4,Home,7,0,2,1,Yes,No
+P00032,35,Female,Other,Medicaid,Urgent,Sepsis,11,Rehab,7,2,0,1,No,No
+P00033,95,Female,Asian,Medicare,Emergency,Sepsis,5,Home,10,1,0,1,Yes,Yes
+P00034,65,Male,White,Medicare,Urgent,Pneumonia,2,Home,2,5,1,1,No,No
+P00035,86,Female,White,Medicaid,Urgent,Sepsis,5,Home Health,7,1,0,1,Yes,No
+P00036,70,Female,Asian,Private,Emergency,Sepsis,7,Home,9,2,0,0,Yes,No
+P00037,69,Male,Hispanic,Medicare,Urgent,AMI,4,Rehab,8,1,0,4,No,No
+P00038,73,Female,Black,Medicaid,Urgent,Pneumonia,8,Home,5,4,1,3,No,No
+P00039,69,Male,White,Self-Pay,Emergency,COPD,8,Home,2,5,0,1,No,No
+P00040,57,Female,White,Private,Emergency,COPD,7,Expired,2,0,0,1,Yes,No
+P00041,68,Male,White,Medicare,Emergency,Pneumonia,2,Home,2,2,1,2,Yes,No
+P00042,72,Female,Asian,Medicare,Emergency,AMI,5,SNF,8,2,0,1,No,No
+P00043,64,Male,White,Private,Urgent,Heart Failure,11,Home,6,3,0,0,No,No
+P00044,57,Female,Black,Private,Emergency,COPD,5,Home,2,3,0,0,No,No
+P00045,61,Female,Hispanic,Medicare,Urgent,AMI,2,Home,8,1,2,1,No,No
+P00046,45,Female,White,Self-Pay,Emergency,Pneumonia,13,Home,2,3,1,3,No,No
+P00047,95,Male,White,Medicare,Emergency,Heart Failure,4,Home,18,1,0,1,No,Yes
+P00048,76,Male,Asian,Self-Pay,Emergency,Heart Failure,10,Home,9,1,1,2,Yes,No
+P00049,75,Female,White,Medicare,Urgent,Other,4,Home,5,0,0,2,Yes,No
+P00050,47,Female,White,Medicaid,Emergency,Other,5,SNF,3,1,0,2,No,No
+P00051,72,Male,White,Medicare,Emergency,AMI,6,Home,5,3,3,1,No,No
+P00052,88,Male,White,Private,Elective,AMI,4,SNF,7,0,1,3,Yes,No
+P00053,45,Male,Asian,Medicare,Urgent,Pneumonia,10,SNF,2,2,0,0,No,No
+P00054,61,Male,White,Medicare,Emergency,Other,9,Rehab,2,1,0,0,No,No
+P00055,55,Female,White,Private,Emergency,Heart Failure,4,Home,2,0,0,0,No,No
+P00056,76,Male,White,Medicare,Emergency,AMI,2,Home,8,2,0,0,No,No
+P00057,71,Male,White,Medicare,Emergency,Sepsis,12,Home,4,4,1,1,No,No
+P00058,84,Female,White,Medicare,Urgent,COPD,2,Home Health,8,2,0,0,Yes,No
+P00059,64,Male,Black,Medicaid,Emergency,Heart Failure,8,Home,9,0,1,0,No,No
+P00060,82,Female,Black,Private,Urgent,Other,7,Rehab,6,1,0,0,No,No
+P00061,74,Female,Asian,Medicaid,Urgent,Sepsis,11,Home,10,1,0,1,Yes,Yes
+P00062,65,Female,Other,Medicare,Emergency,Heart Failure,8,Home,3,1,1,0,No,No
+P00063,85,Female,White,Private,Urgent,COPD,9,Home,11,3,1,0,No,Yes
+P00064,44,Female,White,Medicare,Urgent,AMI,2,Home,2,0,0,1,No,No
+P00065,78,Male,Black,Private,Urgent,AMI,2,Home,13,1,0,1,Yes,Yes
+P00066,69,Female,White,Medicare,Elective,AMI,11,Home Health,2,3,0,2,Yes,No
+P00067,51,Female,Hispanic,Private,Elective,AMI,4,SNF,2,0,2,1,Yes,No
+P00068,76,Male,White,Private,Urgent,Heart Failure,7,Home Health,10,3,0,0,No,Yes
+P00069,83,Male,Black,Medicare,Urgent,Heart Failure,5,Rehab,11,1,0,2,Yes,Yes
+P00070,84,Female,Black,Medicare,Urgent,Heart Failure,4,Expired,10,4,2,0,Yes,Yes
+P00071,63,Male,Black,Medicare,Urgent,Heart Failure,12,Home,5,2,1,1,Yes,No
+P00072,83,Female,White,Medicaid,Emergency,Heart Failure,7,Home,8,2,0,1,Yes,No
+P00073,77,Male,White,Self-Pay,Emergency,Other,3,Rehab,4,2,3,0,No,No
+P00074,72,Female,Black,Medicare,Emergency,Other,2,Home,3,2,1,2,Yes,No
+P00075,82,Female,White,Medicare,Urgent,Pneumonia,2,Home,12,2,1,2,Yes,Yes
+P00076,85,Female,White,Private,Elective,Sepsis,8,Home Health,8,3,2,1,No,No
+P00077,84,Male,Hispanic,Medicare,Emergency,Other,5,Home,6,1,3,1,Yes,No
+P00078,56,Male,White,Private,Urgent,Heart Failure,8,Home Health,4,1,1,0,No,No
+P00079,77,Female,White,Private,Emergency,Pneumonia,3,Home,8,1,0,3,Yes,No
+P00080,68,Female,Black,Medicare,Elective,Sepsis,3,Rehab,11,4,3,1,Yes,Yes
+P00081,66,Female,White,Medicaid,Urgent,Sepsis,3,Home,6,1,0,0,Yes,No
+P00082,83,Male,Other,Medicare,Emergency,Other,4,Home Health,9,4,1,1,Yes,No
+P00083,72,Female,White,Medicare,Elective,Heart Failure,8,Home,11,0,0,0,Yes,Yes
+P00084,68,Female,White,Self-Pay,Emergency,AMI,2,SNF,3,2,1,1,Yes,No
+P00085,69,Male,White,Private,Emergency,Other,4,Home,2,0,2,1,No,No
+P00086,82,Male,Black,Self-Pay,Emergency,Heart Failure,10,Home,14,2,3,1,Yes,Yes
+P00087,79,Female,Hispanic,Medicare,Emergency,Heart Failure,13,Home,14,1,2,2,Yes,Yes
+P00088,77,Male,White,Medicare,Urgent,Heart Failure,9,Home,9,0,0,1,Yes,No
+P00089,85,Female,Black,Private,Elective,COPD,4,SNF,10,4,4,1,No,Yes
+P00090,47,Female,Asian,Medicare,Emergency,Pneumonia,3,SNF,9,0,0,1,No,No
+P00091,35,Male,White,Medicare,Emergency,COPD,6,SNF,3,0,3,2,No,No
+P00092,51,Female,White,Self-Pay,Elective,COPD,9,Home,4,0,0,1,No,No
+P00093,59,Male,Black,Medicare,Emergency,COPD,2,Home Health,3,2,0,3,Yes,No
+P00094,70,Female,White,Medicare,Urgent,COPD,3,Rehab,5,4,1,0,Yes,No
+P00095,70,Male,White,Medicare,Emergency,COPD,6,Home,6,5,1,1,No,No
+P00096,82,Female,Black,Medicare,Urgent,Pneumonia,7,Home Health,11,2,0,0,No,Yes
+P00097,44,Male,Black,Medicare,Urgent,Other,8,Expired,2,1,0,1,No,No
+P00098,68,Female,Hispanic,Medicare,Emergency,Other,7,Home,7,0,2,0,No,No
+P00099,82,Female,White,Medicare,Urgent,Heart Failure,5,SNF,18,2,2,2,No,Yes
+P00100,47,Male,White,Medicaid,Elective,AMI,6,Home Health,5,1,3,1,Yes,No
+P00101,53,Male,White,Medicare,Emergency,Heart Failure,11,Home,4,2,2,0,No,No
+P00102,55,Female,Hispanic,Medicare,Emergency,Sepsis,6,SNF,6,0,3,0,Yes,No
+P00103,73,Female,Hispanic,Medicaid,Urgent,Heart Failure,13,Home Health,6,0,0,1,No,No
+P00104,84,Female,White,Medicare,Emergency,Heart Failure,8,Home Health,8,0,0,1,Yes,No
+P00105,51,Female,White,Medicare,Emergency,Sepsis,10,SNF,9,1,0,0,No,No
+P00106,72,Male,Black,Medicaid,Emergency,COPD,6,Home,5,2,2,0,No,No
+P00107,84,Female,White,Medicare,Emergency,Sepsis,7,Home,11,4,0,0,Yes,Yes
+P00108,56,Female,White,Medicare,Elective,AMI,7,Home,2,1,2,1,No,No
+P00109,86,Female,Black,Medicare,Emergency,AMI,5,Home,6,0,1,1,Yes,No
+P00110,71,Male,White,Medicare,Emergency,Pneumonia,7,SNF,3,4,1,1,Yes,No
+P00111,95,Female,White,Private,Emergency,Heart Failure,10,Home,12,1,0,0,No,Yes
+P00112,71,Male,White,Medicaid,Emergency,Heart Failure,9,Home Health,8,0,1,0,Yes,No
+P00113,77,Male,White,Medicare,Emergency,COPD,5,Home,4,4,0,1,Yes,No
+P00114,62,Female,Black,Medicaid,Emergency,Sepsis,6,Home,6,2,0,0,No,No
+P00115,83,Female,White,Medicare,Urgent,Other,2,Home,11,1,0,0,No,Yes
+P00116,69,Female,White,Medicare,Emergency,AMI,4,Home,4,3,0,1,Yes,No
+P00117,86,Male,White,Medicare,Emergency,Sepsis,6,Home,13,1,0,0,Yes,Yes
+P00118,76,Female,White,Medicare,Emergency,Other,6,Home,2,1,2,1,Yes,No
+P00119,68,Female,White,Self-Pay,Emergency,COPD,8,Home,3,4,2,1,Yes,No
+P00120,79,Male,White,Medicare,Emergency,Pneumonia,9,Home Health,7,1,2,0,No,No
+P00121,65,Male,White,Medicare,Emergency,COPD,7,Rehab,6,0,4,1,No,No
+P00122,55,Male,Black,Self-Pay,Urgent,Sepsis,3,SNF,7,1,0,0,No,No
+P00123,67,Female,White,Private,Emergency,AMI,6,Home Health,5,2,0,1,No,No
+P00124,68,Female,Hispanic,Medicare,Emergency,COPD,5,Home Health,7,4,1,3,Yes,No
+P00125,72,Female,White,Medicare,Emergency,Pneumonia,2,Home Health,7,0,1,1,No,No
+P00126,93,Female,White,Medicare,Elective,AMI,6,SNF,8,0,0,0,No,No
+P00127,58,Female,Hispanic,Medicaid,Urgent,Sepsis,3,Home,5,0,0,0,No,No
+P00128,71,Female,White,Medicaid,Urgent,Pneumonia,3,Home Health,4,2,2,0,No,No
+P00129,71,Male,White,Private,Urgent,Sepsis,12,Home,7,3,3,1,Yes,No
+P00130,51,Female,Other,Private,Urgent,AMI,5,Rehab,4,4,1,0,No,No
+P00131,61,Male,White,Medicare,Emergency,Other,2,Home Health,3,0,0,1,No,No
+P00132,56,Female,Other,Medicare,Elective,COPD,2,Home Health,2,3,0,0,Yes,No
+P00133,70,Female,White,Medicare,Emergency,Sepsis,8,SNF,9,2,0,1,No,No
+P00134,59,Female,White,Medicaid,Emergency,Heart Failure,4,Home,2,2,3,1,Yes,No
+P00135,76,Male,White,Medicaid,Emergency,COPD,8,Home,3,2,3,0,No,No
+P00136,81,Male,White,Medicaid,Emergency,Heart Failure,10,Home,15,5,1,0,Yes,Yes
+P00137,59,Female,White,Medicare,Emergency,Sepsis,5,Home Health,9,3,0,1,No,No
+P00138,70,Male,Black,Private,Emergency,Sepsis,11,Home,7,2,4,1,Yes,No
+P00139,70,Female,White,Self-Pay,Urgent,Pneumonia,10,SNF,5,2,0,0,Yes,No
+P00140,62,Female,White,Medicare,Elective,Other,2,Home,2,0,1,1,No,No
+P00141,47,Male,White,Private,Urgent,COPD,6,Rehab,7,4,0,1,Yes,No
+P00142,75,Female,White,Medicaid,Emergency,Sepsis,8,Home,13,0,0,1,No,Yes
+P00143,55,Male,White,Medicaid,Urgent,Other,3,Home Health,2,3,2,1,No,No
+P00144,56,Male,White,Private,Urgent,COPD,5,Home,5,0,0,0,No,No
+P00145,81,Female,Black,Medicaid,Emergency,Pneumonia,7,SNF,10,5,0,3,Yes,Yes
+P00146,69,Male,Black,Medicare,Emergency,Sepsis,6,SNF,7,1,0,1,No,No
+P00147,70,Male,Hispanic,Medicaid,Urgent,Heart Failure,10,SNF,9,3,0,0,No,No
+P00148,92,Male,White,Medicare,Emergency,Sepsis,8,Expired,14,4,0,0,No,Yes
+P00149,59,Male,White,Medicare,Emergency,Sepsis,3,Home,2,3,4,0,Yes,No
+P00150,65,Female,White,Medicare,Elective,Sepsis,5,Home,6,0,0,2,Yes,No
+P00151,95,Female,White,Medicare,Urgent,Sepsis,8,Home,15,1,1,1,No,Yes
+P00152,72,Female,White,Medicare,Urgent,COPD,3,Home,7,3,0,0,Yes,No
+P00153,94,Female,Hispanic,Medicaid,Emergency,COPD,2,Home,8,2,1,0,Yes,No
+P00154,68,Female,White,Medicare,Emergency,Pneumonia,2,Home,9,1,2,2,Yes,No
+P00155,85,Female,White,Medicare,Urgent,COPD,5,SNF,5,3,0,1,No,No
+P00156,56,Male,White,Medicare,Emergency,Other,10,Home,2,1,3,2,Yes,No
+P00157,83,Male,White,Self-Pay,Emergency,COPD,10,SNF,10,2,1,0,Yes,Yes
+P00158,45,Male,White,Medicare,Emergency,Heart Failure,4,Home,7,2,1,1,No,No
+P00159,54,Male,Other,Private,Urgent,Other,6,Home,4,1,0,1,No,No
+P00160,57,Female,Black,Medicare,Urgent,AMI,7,SNF,2,3,1,0,No,No
+P00161,55,Female,White,Private,Urgent,Heart Failure,3,Home,7,2,0,1,No,No
+P00162,74,Male,Hispanic,Medicare,Emergency,Other,4,Rehab,5,2,1,0,No,No
+P00163,49,Male,Hispanic,Medicare,Emergency,COPD,2,SNF,2,0,2,1,No,No
+P00164,68,Female,White,Medicare,Elective,Pneumonia,9,Home,7,0,0,0,No,No
+P00165,69,Female,Black,Medicaid,Emergency,Heart Failure,6,SNF,11,2,0,2,Yes,Yes
+P00166,80,Female,White,Private,Emergency,AMI,7,SNF,6,2,2,1,Yes,No
+P00167,47,Male,White,Medicare,Urgent,AMI,2,Rehab,3,0,0,1,No,No
+P00168,47,Male,White,Private,Elective,Other,3,Home,2,1,0,1,No,No
+P00169,46,Female,White,Private,Emergency,COPD,9,Home,6,5,3,2,Yes,No
+P00170,54,Female,White,Private,Emergency,AMI,2,Home,2,0,1,1,Yes,No
+P00171,79,Female,Hispanic,Medicaid,Emergency,COPD,8,Home,11,1,1,0,No,Yes
+P00172,66,Female,White,Medicaid,Emergency,COPD,7,Home,5,1,3,2,No,No
+P00173,60,Female,Asian,Medicare,Emergency,COPD,4,SNF,2,0,0,0,Yes,No
+P00174,62,Female,White,Private,Emergency,Other,5,Home,3,2,0,3,No,No
+P00175,59,Female,Black,Medicare,Emergency,Pneumonia,4,Home,7,2,0,1,No,No
+P00176,74,Male,Asian,Private,Emergency,Pneumonia,3,Rehab,7,1,2,0,No,No
+P00177,53,Female,Hispanic,Medicaid,Emergency,Other,9,Home,5,0,0,1,No,No
+P00178,83,Female,Hispanic,Medicare,Emergency,Other,2,Home Health,3,0,0,2,Yes,No
+P00179,68,Female,White,Medicare,Emergency,Other,2,Rehab,4,1,1,0,Yes,No
+P00180,74,Female,White,Medicare,Emergency,AMI,2,SNF,3,0,3,0,No,No
+P00181,83,Female,White,Medicare,Emergency,Heart Failure,6,Home,11,2,0,1,No,Yes
+P00182,67,Female,Hispanic,Medicare,Emergency,Other,2,SNF,3,2,0,1,No,No
+P00183,77,Female,White,Medicare,Elective,Other,5,Home,4,4,0,2,No,No
+P00184,84,Female,White,Medicare,Urgent,COPD,4,Home Health,5,3,1,2,Yes,No
+P00185,63,Male,White,Medicare,Emergency,Pneumonia,6,Home,4,3,0,0,No,No
+P00186,59,Male,White,Medicare,Elective,Sepsis,7,Home Health,9,1,1,0,No,No
+P00187,76,Male,Asian,Medicare,Emergency,Pneumonia,7,Home,10,6,3,0,No,Yes
+P00188,80,Female,Hispanic,Medicare,Urgent,AMI,4,Home,4,2,0,0,Yes,No
+P00189,35,Female,Hispanic,Medicare,Elective,Pneumonia,6,Home Health,2,2,0,1,Yes,No
+P00190,83,Female,Black,Medicare,Emergency,Sepsis,3,Expired,12,1,0,0,Yes,Yes
+P00191,85,Female,White,Private,Urgent,Pneumonia,2,Rehab,8,0,0,1,No,No
+P00192,90,Female,White,Medicaid,Elective,Pneumonia,2,Home,10,5,1,2,Yes,Yes
+P00193,57,Female,Hispanic,Private,Urgent,Heart Failure,7,Rehab,9,1,1,2,No,No
+P00194,64,Female,White,Medicare,Emergency,Sepsis,8,Home Health,12,0,2,2,Yes,Yes
+P00195,35,Female,White,Private,Emergency,Heart Failure,7,Home Health,11,2,1,1,Yes,Yes
+P00196,45,Female,White,Self-Pay,Elective,Pneumonia,3,Rehab,2,0,1,0,Yes,No
+P00197,84,Male,Black,Medicaid,Urgent,AMI,7,Rehab,5,0,1,0,Yes,No
+P00198,87,Male,White,Private,Urgent,Sepsis,3,SNF,13,2,0,0,No,Yes
+P00199,73,Female,Black,Self-Pay,Emergency,Sepsis,7,Home,9,2,0,1,No,No
+P00200,51,Female,White,Medicaid,Emergency,COPD,6,Home Health,5,2,2,3,Yes,No
+P00201,68,Male,Black,Medicaid,Emergency,Pneumonia,6,Home,8,4,2,0,No,No
+P00202,68,Female,White,Private,Emergency,Heart Failure,4,SNF,7,1,0,0,Yes,No
+P00203,68,Female,White,Medicaid,Emergency,Other,7,Home,5,1,1,0,No,No
+P00204,63,Female,White,Medicaid,Elective,Pneumonia,2,SNF,8,2,2,0,Yes,No
+P00205,68,Male,White,Private,Emergency,Sepsis,6,Home Health,4,0,3,2,No,No
+P00206,44,Female,White,Medicare,Urgent,Sepsis,8,SNF,6,1,0,0,Yes,No
+P00207,83,Female,Hispanic,Medicare,Emergency,COPD,4,Home,7,0,0,2,Yes,No
+P00208,60,Female,Asian,Medicare,Emergency,AMI,5,Home,3,1,0,1,Yes,No
+P00209,81,Female,Black,Medicare,Urgent,Sepsis,9,SNF,10,3,0,1,No,Yes
+P00210,50,Male,White,Medicare,Emergency,Other,10,Home,6,2,0,2,No,No
+P00211,36,Male,White,Medicare,Emergency,COPD,2,Home Health,6,3,0,0,No,No
+P00212,60,Male,White,Medicare,Elective,Pneumonia,2,Home,7,0,0,0,No,No
+P00213,90,Female,Black,Medicare,Urgent,AMI,3,Home,9,2,1,0,No,No
+P00214,80,Male,Other,Medicare,Urgent,Heart Failure,7,Rehab,11,4,1,0,No,Yes
+P00215,83,Male,Black,Private,Emergency,AMI,4,SNF,7,2,0,3,Yes,No
+P00216,84,Female,White,Medicare,Elective,Heart Failure,17,Home,11,2,0,2,Yes,Yes
+P00217,81,Female,White,Self-Pay,Emergency,Heart Failure,5,Home,9,4,0,0,Yes,No
+P00218,78,Male,Hispanic,Private,Emergency,Sepsis,7,Home Health,4,5,1,2,Yes,No
+P00219,88,Female,White,Medicare,Emergency,Pneumonia,2,Home,11,2,0,2,No,Yes
+P00220,80,Female,Black,Medicare,Urgent,COPD,6,Home Health,9,0,0,0,No,No
+P00221,83,Female,Black,Medicare,Urgent,COPD,8,Home,7,3,1,1,No,No
+P00222,53,Male,Black,Medicare,Urgent,Pneumonia,2,Home,5,2,2,1,No,No
+P00223,61,Male,White,Medicare,Elective,COPD,6,Rehab,2,3,1,2,No,No
+P00224,79,Female,Hispanic,Private,Emergency,Sepsis,6,Home Health,10,1,2,2,Yes,Yes
+P00225,87,Female,White,Medicaid,Urgent,Sepsis,5,Home,13,3,1,1,Yes,Yes
+P00226,73,Female,Other,Private,Emergency,COPD,8,Home Health,6,3,0,0,Yes,No
+P00227,62,Male,White,Private,Elective,COPD,12,Rehab,7,3,2,0,Yes,No
+P00228,70,Female,Black,Medicaid,Emergency,Sepsis,5,Home Health,13,1,0,2,No,Yes
+P00229,91,Female,Hispanic,Self-Pay,Urgent,COPD,8,SNF,12,3,0,0,Yes,Yes
+P00230,72,Female,White,Medicare,Urgent,Other,2,SNF,6,6,2,0,No,No
+P00231,86,Female,White,Medicare,Emergency,Heart Failure,4,SNF,11,2,1,1,Yes,Yes
+P00232,92,Female,White,Medicaid,Elective,AMI,2,Home,9,0,1,0,No,No
+P00233,77,Male,White,Private,Emergency,Sepsis,3,Home,9,0,1,1,Yes,No
+P00234,64,Female,White,Medicare,Emergency,Pneumonia,6,Home,4,2,0,0,No,No
+P00235,53,Male,White,Self-Pay,Urgent,Pneumonia,3,Home,2,1,3,1,Yes,No
+P00236,35,Female,White,Private,Emergency,COPD,2,Home,5,4,3,0,No,No
+P00237,66,Female,Asian,Private,Elective,Sepsis,11,SNF,10,1,0,0,Yes,Yes
+P00238,70,Male,White,Private,Emergency,Sepsis,9,Home,9,0,1,3,Yes,No
+P00239,64,Male,White,Private,Emergency,AMI,7,SNF,2,1,0,1,Yes,No
+P00240,56,Male,Asian,Medicare,Emergency,COPD,3,Home Health,9,2,1,0,No,No
+P00241,66,Female,Hispanic,Medicare,Emergency,Pneumonia,11,Home,5,2,0,3,Yes,No
+P00242,86,Male,White,Medicare,Emergency,Sepsis,7,Home,11,0,1,1,No,Yes
+P00243,62,Female,White,Medicaid,Emergency,Pneumonia,6,Rehab,3,4,0,0,Yes,No
+P00244,46,Male,White,Medicare,Emergency,Pneumonia,3,SNF,5,2,0,1,Yes,No
+P00245,83,Female,Other,Medicare,Emergency,Sepsis,11,Home Health,8,2,1,0,No,No
+P00246,46,Male,Black,Private,Elective,AMI,5,SNF,5,1,0,3,No,No
+P00247,85,Male,White,Medicare,Emergency,Sepsis,3,Home Health,6,2,0,1,Yes,No
+P00248,50,Male,White,Medicaid,Emergency,Other,11,Home,7,3,2,2,No,No
+P00249,76,Male,White,Medicare,Emergency,Heart Failure,8,SNF,11,5,1,0,Yes,Yes
+P00250,45,Female,Hispanic,Self-Pay,Emergency,Sepsis,10,Home Health,7,1,0,0,No,No
+P00251,50,Female,White,Private,Emergency,AMI,7,Home,2,3,0,0,Yes,No
+P00252,48,Female,White,Medicare,Elective,AMI,2,Home Health,4,1,0,0,Yes,No
+P00253,74,Male,White,Medicare,Urgent,Heart Failure,13,Expired,6,0,3,1,Yes,No
+P00254,71,Female,White,Medicaid,Emergency,Other,4,Home,9,1,0,0,No,No
+P00255,57,Male,White,Medicare,Elective,Other,3,Home,2,2,1,0,No,No
+P00256,57,Female,White,Medicare,Urgent,Sepsis,3,SNF,3,0,3,0,No,No
+P00257,64,Female,White,Medicare,Urgent,Sepsis,6,SNF,11,2,2,0,No,Yes
+P00258,54,Male,Hispanic,Private,Emergency,COPD,3,Home,8,3,3,0,No,No
+P00259,51,Male,White,Medicare,Emergency,Heart Failure,8,SNF,5,0,3,0,Yes,No
+P00260,84,Male,White,Medicare,Emergency,AMI,10,Expired,6,1,0,0,Yes,No
+P00261,64,Female,White,Private,Urgent,Sepsis,7,SNF,7,0,1,0,No,No
+P00262,70,Male,White,Medicare,Emergency,Heart Failure,5,Home,8,1,2,0,Yes,No
+P00263,86,Female,Black,Private,Emergency,COPD,2,SNF,11,3,0,1,Yes,Yes
+P00264,58,Male,Black,Medicare,Emergency,Heart Failure,3,Home,7,1,0,1,No,No
+P00265,63,Male,Black,Private,Elective,Pneumonia,2,Home Health,3,2,0,0,Yes,No
+P00266,69,Female,White,Medicare,Emergency,Sepsis,7,SNF,6,4,0,1,Yes,No
+P00267,70,Female,White,Medicare,Emergency,Sepsis,15,SNF,10,4,0,0,Yes,Yes
+P00268,62,Female,White,Medicare,Emergency,Other,4,Rehab,6,0,2,0,No,No
+P00269,53,Male,Black,Medicare,Emergency,Other,7,Home,5,2,0,3,No,No
+P00270,79,Female,White,Medicaid,Emergency,AMI,9,Home,8,0,1,2,No,No
+P00271,75,Male,Hispanic,Self-Pay,Urgent,AMI,6,Home Health,10,5,2,0,Yes,Yes
+P00272,58,Male,White,Medicaid,Emergency,Other,4,Home Health,4,1,1,0,No,No
+P00273,78,Male,White,Medicaid,Elective,Heart Failure,6,SNF,8,4,2,4,Yes,No
+P00274,62,Female,White,Medicare,Emergency,AMI,2,Expired,2,1,0,0,No,No
+P00275,86,Female,Black,Medicare,Elective,AMI,5,SNF,10,1,1,0,Yes,Yes
+P00276,71,Female,Hispanic,Medicare,Emergency,COPD,4,Home Health,14,1,0,0,No,Yes
+P00277,86,Male,Black,Private,Emergency,Heart Failure,15,Home,13,2,3,0,No,Yes
+P00278,58,Female,White,Medicare,Urgent,Pneumonia,9,SNF,5,2,2,0,No,No
+P00279,78,Female,White,Medicare,Emergency,Pneumonia,6,Home Health,6,1,2,0,Yes,No
+P00280,76,Female,White,Medicare,Emergency,COPD,2,Home,12,4,0,2,Yes,Yes
+P00281,38,Female,White,Medicare,Urgent,Heart Failure,3,SNF,4,0,0,2,Yes,No
+P00282,95,Female,White,Medicare,Emergency,AMI,9,SNF,10,3,1,0,Yes,Yes
+P00283,66,Female,White,Private,Elective,AMI,2,SNF,6,3,4,0,Yes,No
+P00284,76,Female,Asian,Medicaid,Emergency,COPD,2,Home Health,11,0,0,1,Yes,Yes
+P00285,66,Male,Black,Private,Emergency,AMI,4,Home,5,0,0,0,Yes,No
+P00286,69,Male,White,Medicare,Urgent,Other,7,Home,3,2,0,0,No,No
+P00287,60,Female,White,Medicare,Emergency,Pneumonia,8,Home,3,1,1,0,No,No
+P00288,36,Female,White,Medicare,Emergency,Heart Failure,5,SNF,6,2,1,0,Yes,No
+P00289,95,Male,Asian,Private,Emergency,Sepsis,8,Rehab,13,1,2,2,No,Yes
+P00290,83,Male,White,Medicare,Emergency,AMI,2,Home,9,2,2,3,Yes,No
+P00291,52,Female,White,Medicare,Elective,AMI,7,Home,2,3,3,2,No,No
+P00292,68,Female,Black,Medicaid,Emergency,Heart Failure,14,Home,9,0,0,2,Yes,No
+P00293,62,Female,Black,Medicaid,Emergency,Heart Failure,15,Home,2,1,0,0,Yes,No
+P00294,53,Male,White,Medicaid,Urgent,Heart Failure,9,Home Health,9,0,0,0,No,No
+P00295,79,Female,White,Medicare,Emergency,COPD,10,SNF,11,1,0,1,Yes,Yes
+P00296,60,Male,White,Medicare,Emergency,Heart Failure,5,Home,6,3,0,0,No,No
+P00297,65,Female,Asian,Medicaid,Emergency,Heart Failure,11,Home,12,4,0,2,Yes,Yes
+P00298,70,Male,White,Medicare,Urgent,AMI,2,Home,5,3,3,2,No,No
+P00299,76,Female,Black,Medicare,Urgent,Other,6,Home,4,0,1,0,Yes,No
+P00300,95,Male,Black,Private,Emergency,Sepsis,8,SNF,14,3,0,0,No,Yes
+P00301,75,Female,White,Medicare,Emergency,COPD,2,Home,5,4,3,0,Yes,No
+P00302,76,Male,Hispanic,Medicare,Elective,Pneumonia,7,SNF,5,0,0,1,No,No
+P00303,80,Female,Hispanic,Medicare,Emergency,Pneumonia,4,Rehab,6,3,0,2,Yes,No
+P00304,69,Male,Black,Medicare,Urgent,Other,5,Home Health,3,2,2,0,No,No
+P00305,50,Female,Asian,Medicare,Emergency,Heart Failure,11,Home,9,0,1,2,Yes,No
+P00306,59,Female,Asian,Medicare,Emergency,Sepsis,5,SNF,7,2,0,0,No,No
+P00307,83,Male,White,Medicare,Emergency,COPD,3,Expired,8,1,0,0,No,No
+P00308,66,Male,White,Medicare,Urgent,COPD,2,Home Health,4,3,0,3,No,No
+P00309,53,Male,Black,Medicare,Elective,Sepsis,4,Home,3,1,0,1,Yes,No
+P00310,76,Male,White,Medicare,Urgent,AMI,7,Rehab,2,2,0,0,Yes,No
+P00311,61,Male,Other,Medicare,Emergency,Heart Failure,8,Home,5,0,0,1,No,No
+P00312,73,Female,Other,Private,Emergency,Sepsis,6,Rehab,5,4,2,0,Yes,No
+P00313,79,Male,Hispanic,Medicare,Emergency,Sepsis,4,Home,5,2,0,1,Yes,No
+P00314,40,Male,Asian,Medicare,Emergency,Sepsis,6,Home,3,3,2,1,Yes,No
+P00315,68,Female,White,Medicare,Emergency,COPD,2,Home,5,2,0,0,Yes,No
+P00316,50,Female,White,Medicaid,Emergency,Heart Failure,3,Home,2,2,1,2,Yes,No
+P00317,52,Male,White,Self-Pay,Elective,Other,2,Home,4,1,1,0,Yes,No
+P00318,88,Male,Black,Medicare,Emergency,Heart Failure,4,SNF,9,0,2,1,Yes,No
+P00319,74,Female,White,Medicare,Emergency,Heart Failure,5,SNF,12,2,2,1,Yes,Yes
+P00320,39,Male,White,Medicare,Emergency,Heart Failure,4,Home,2,3,2,1,Yes,No
+P00321,63,Male,Asian,Medicare,Emergency,COPD,2,Home,9,4,1,0,No,No
+P00322,45,Male,Hispanic,Private,Emergency,Sepsis,5,Home,7,1,3,0,No,No
+P00323,67,Female,White,Private,Emergency,Heart Failure,6,Home,6,2,1,0,No,No
+P00324,61,Male,Black,Private,Urgent,AMI,2,Expired,5,0,1,2,Yes,No
+P00325,64,Male,White,Medicaid,Urgent,COPD,5,SNF,2,2,4,0,Yes,No
+P00326,49,Female,Black,Self-Pay,Emergency,COPD,5,Home,7,3,1,2,No,No
+P00327,61,Male,White,Medicare,Elective,Sepsis,7,Home,6,3,2,2,Yes,No
+P00328,61,Male,White,Private,Urgent,Pneumonia,17,Home,7,1,1,0,Yes,No
+P00329,65,Male,White,Private,Elective,COPD,6,SNF,7,2,0,0,No,No
+P00330,57,Male,Black,Medicare,Emergency,Heart Failure,10,Home,5,4,0,1,Yes,No
+P00331,84,Female,Black,Medicare,Urgent,Heart Failure,10,SNF,8,1,1,0,Yes,No
+P00332,61,Female,White,Medicare,Urgent,Other,7,Home Health,2,0,0,1,No,No
+P00333,64,Female,White,Medicare,Emergency,Pneumonia,8,Home,10,2,2,0,Yes,Yes
+P00334,59,Male,Hispanic,Medicare,Emergency,Heart Failure,7,Home Health,7,1,1,0,Yes,No
+P00335,69,Female,White,Medicare,Emergency,Sepsis,4,Rehab,7,3,0,0,No,No
+P00336,59,Female,Black,Medicare,Emergency,Sepsis,14,Home,2,0,2,0,No,No
+P00337,75,Female,White,Private,Emergency,Pneumonia,6,Home,9,0,2,0,No,No
+P00338,74,Female,Black,Medicare,Emergency,Sepsis,10,Home,7,1,0,3,No,No
+P00339,77,Male,White,Medicare,Elective,Heart Failure,5,Home Health,9,1,1,1,No,No
+P00340,71,Female,White,Private,Emergency,Heart Failure,4,Home,10,1,0,0,Yes,Yes
+P00341,84,Female,White,Private,Emergency,AMI,7,Home,11,3,0,0,No,Yes
+P00342,65,Female,White,Self-Pay,Emergency,Heart Failure,12,Home,13,1,0,4,Yes,Yes
+P00343,66,Male,White,Medicare,Elective,Heart Failure,5,SNF,8,0,2,0,Yes,No
+P00344,74,Female,Black,Medicare,Emergency,COPD,4,Home Health,7,2,0,0,No,No
+P00345,75,Female,White,Private,Emergency,COPD,5,Home,7,2,0,2,Yes,No
+P00346,62,Male,White,Private,Emergency,Pneumonia,8,SNF,5,4,1,0,Yes,No
+P00347,76,Male,Other,Medicare,Urgent,Heart Failure,5,Home,8,2,0,0,No,No
+P00348,68,Male,White,Medicare,Emergency,COPD,5,Rehab,6,3,0,0,No,No
+P00349,82,Female,White,Medicaid,Emergency,Other,4,Rehab,8,0,0,1,Yes,No
+P00350,71,Male,White,Medicare,Emergency,COPD,3,Home,11,1,0,0,No,Yes
+P00351,85,Female,Asian,Medicaid,Emergency,Pneumonia,3,SNF,13,3,1,0,No,Yes
+P00352,95,Male,White,Self-Pay,Elective,Other,12,SNF,15,2,0,1,No,Yes
+P00353,48,Female,White,Medicare,Emergency,Sepsis,10,Home Health,4,3,3,0,No,No
+P00354,58,Male,White,Medicare,Emergency,COPD,7,Home Health,4,0,1,0,No,No
+P00355,58,Male,White,Medicare,Urgent,Other,10,Home,2,1,0,0,No,No
+P00356,83,Male,White,Medicare,Elective,Sepsis,3,Home,7,0,1,1,Yes,No
+P00357,80,Female,Black,Medicare,Emergency,Pneumonia,2,Home,14,0,3,1,No,Yes
+P00358,75,Female,White,Medicare,Emergency,COPD,4,Home,6,0,1,0,Yes,No
+P00359,56,Male,White,Self-Pay,Urgent,Other,7,Home Health,6,2,0,0,No,No
+P00360,89,Male,White,Private,Emergency,Heart Failure,4,Home,15,6,2,1,Yes,Yes
+P00361,95,Male,White,Medicare,Emergency,AMI,2,Home,9,2,3,1,Yes,No
+P00362,63,Male,White,Medicare,Urgent,COPD,5,Home,7,3,2,0,Yes,No
+P00363,73,Female,White,Medicaid,Emergency,Heart Failure,11,Home,7,0,1,2,No,No
+P00364,72,Female,White,Medicaid,Elective,Sepsis,3,SNF,6,1,1,1,Yes,No
+P00365,85,Female,White,Private,Elective,Sepsis,7,Home,13,3,0,0,No,Yes
+P00366,76,Female,White,Medicaid,Emergency,Other,8,Rehab,9,1,0,0,No,No
+P00367,68,Male,Asian,Medicaid,Urgent,Sepsis,5,Rehab,3,1,2,0,No,No
+P00368,56,Male,White,Medicaid,Emergency,Heart Failure,9,Home,8,2,1,1,Yes,No
+P00369,74,Male,White,Private,Emergency,AMI,2,Home Health,3,2,0,0,No,No
+P00370,63,Male,White,Medicaid,Emergency,Other,3,Home,2,3,1,0,No,No
+P00371,80,Female,Black,Medicaid,Emergency,Heart Failure,10,Home,8,2,1,0,Yes,No
+P00372,83,Male,Hispanic,Medicare,Elective,Pneumonia,2,Home Health,12,0,1,3,Yes,Yes
+P00373,71,Male,Black,Medicare,Elective,Sepsis,5,Rehab,11,0,0,0,Yes,Yes
+P00374,43,Female,White,Private,Elective,Other,8,Home,4,1,0,2,Yes,No
+P00375,76,Male,White,Medicaid,Emergency,Heart Failure,3,Home,12,0,0,0,Yes,Yes
+P00376,67,Male,Black,Private,Urgent,COPD,2,Home,8,5,0,0,No,No
+P00377,50,Male,White,Private,Elective,Pneumonia,7,Home Health,2,3,2,2,Yes,No
+P00378,57,Female,Hispanic,Medicare,Emergency,COPD,3,Home,5,1,1,0,No,No
+P00379,68,Female,Black,Private,Emergency,Sepsis,6,Home,6,2,3,0,Yes,No
+P00380,67,Female,White,Medicare,Emergency,AMI,3,SNF,2,2,1,0,No,No
+P00381,64,Male,White,Medicare,Emergency,Pneumonia,4,Rehab,4,3,2,2,No,No
+P00382,84,Male,White,Medicaid,Emergency,Heart Failure,10,SNF,12,4,2,1,No,Yes
+P00383,92,Male,White,Medicare,Elective,Heart Failure,11,Home,12,0,0,0,Yes,Yes
+P00384,90,Male,White,Medicare,Emergency,Pneumonia,3,Home,9,2,0,0,No,No
+P00385,69,Male,White,Medicare,Emergency,Heart Failure,7,Home,5,2,2,0,No,No
+P00386,73,Female,White,Medicare,Emergency,Sepsis,9,Home Health,11,4,3,0,Yes,Yes
+P00387,79,Male,White,Private,Emergency,Pneumonia,3,Rehab,5,5,0,0,No,No
+P00388,65,Female,Black,Medicare,Elective,COPD,2,Home,2,1,2,0,No,No
+P00389,67,Female,White,Medicare,Emergency,Heart Failure,3,Home,10,2,3,0,Yes,Yes
+P00390,58,Female,White,Medicare,Emergency,Other,4,Home Health,6,3,1,0,Yes,No
+P00391,81,Female,White,Medicare,Emergency,Other,6,Home,8,1,0,0,No,No
+P00392,78,Male,White,Self-Pay,Emergency,Heart Failure,4,Rehab,10,2,4,2,Yes,Yes
+P00393,82,Male,White,Medicaid,Emergency,Sepsis,3,Rehab,11,1,2,1,Yes,Yes
+P00394,72,Female,White,Medicaid,Urgent,Heart Failure,12,SNF,9,2,1,0,Yes,No
+P00395,70,Female,Hispanic,Medicare,Urgent,Sepsis,11,Home Health,9,2,2,0,No,No
+P00396,66,Male,Hispanic,Private,Emergency,Sepsis,5,Home,10,3,0,0,Yes,Yes
+P00397,79,Female,White,Private,Urgent,COPD,5,Home,13,4,2,0,No,Yes
+P00398,78,Female,Other,Private,Emergency,Heart Failure,15,Home,12,0,0,0,No,Yes
+P00399,77,Male,White,Medicare,Urgent,COPD,5,Home Health,7,0,2,0,Yes,No
+P00400,55,Female,Black,Medicare,Emergency,AMI,13,Home,3,0,0,0,No,No
+P00401,73,Female,White,Medicare,Urgent,Heart Failure,3,Home Health,9,1,2,0,Yes,No
+P00402,73,Female,White,Medicaid,Urgent,Pneumonia,8,Home,9,1,0,1,No,No
+P00403,39,Male,Hispanic,Private,Urgent,Heart Failure,5,Home,9,3,1,0,Yes,No
+P00404,63,Male,White,Medicare,Emergency,COPD,2,Home,2,3,0,1,No,No
+P00405,56,Male,White,Medicare,Emergency,Sepsis,7,Home,3,0,1,2,Yes,No
+P00406,55,Male,White,Private,Emergency,AMI,5,Home,3,1,0,0,No,No
+P00407,58,Female,White,Self-Pay,Urgent,AMI,4,Home,2,2,2,1,Yes,No
+P00408,88,Female,Hispanic,Private,Emergency,Heart Failure,11,Home Health,12,1,0,0,No,Yes
+P00409,51,Male,White,Medicare,Emergency,COPD,5,SNF,3,3,2,1,Yes,No
+P00410,82,Male,Hispanic,Medicare,Urgent,Other,5,Rehab,11,1,2,2,No,Yes
+P00411,89,Female,White,Private,Emergency,COPD,10,Home,10,3,0,0,No,Yes
+P00412,65,Female,White,Private,Emergency,Other,2,Home,7,0,1,0,No,No
+P00413,62,Male,White,Medicare,Emergency,COPD,9,Home Health,3,3,1,0,Yes,No
+P00414,44,Male,Black,Private,Emergency,Sepsis,8,Home,2,0,3,0,Yes,No
+P00415,74,Female,White,Private,Urgent,Heart Failure,13,Home,10,4,0,0,No,Yes
+P00416,66,Female,White,Self-Pay,Urgent,Heart Failure,11,Home,2,5,2,1,No,No
+P00417,69,Male,White,Medicare,Emergency,Pneumonia,3,Home,7,3,1,0,Yes,No
+P00418,74,Female,Black,Self-Pay,Elective,Heart Failure,13,SNF,10,2,0,0,Yes,Yes
+P00419,80,Male,Black,Private,Urgent,Pneumonia,3,Home,7,0,3,0,No,No
+P00420,66,Female,White,Private,Emergency,Sepsis,8,Home,11,1,2,0,Yes,Yes
+P00421,43,Female,Hispanic,Medicare,Elective,Other,2,Home,4,0,0,0,No,No
+P00422,70,Female,White,Medicaid,Elective,Heart Failure,11,Home Health,7,3,2,2,Yes,No
+P00423,54,Male,Black,Medicare,Emergency,Heart Failure,13,Home,7,2,0,3,No,No
+P00424,81,Male,White,Self-Pay,Urgent,AMI,6,Home,13,3,3,0,No,Yes
+P00425,92,Female,Black,Medicare,Emergency,COPD,6,Expired,8,0,0,0,No,No
+P00426,59,Male,Other,Medicare,Emergency,Sepsis,3,Home,6,0,1,0,Yes,No
+P00427,78,Female,Hispanic,Medicaid,Emergency,Heart Failure,8,Home Health,11,3,1,2,No,Yes
+P00428,60,Female,White,Medicare,Elective,Other,3,Home,4,4,0,2,No,No
+P00429,81,Female,White,Medicaid,Emergency,Heart Failure,3,SNF,10,0,1,0,Yes,Yes
+P00430,42,Female,Black,Medicare,Emergency,AMI,3,Home Health,2,0,0,0,Yes,No
+P00431,64,Female,White,Medicare,Urgent,COPD,2,SNF,7,1,1,1,Yes,No
+P00432,35,Male,Black,Medicare,Emergency,Sepsis,6,Home,2,1,0,0,No,No
+P00433,74,Male,White,Self-Pay,Emergency,Heart Failure,7,SNF,8,2,2,0,Yes,No
+P00434,83,Male,White,Medicare,Emergency,COPD,11,SNF,11,1,2,1,Yes,Yes
+P00435,59,Male,Black,Medicaid,Emergency,Pneumonia,10,Home,8,0,1,1,Yes,No
+P00436,62,Female,White,Private,Urgent,Heart Failure,7,Home Health,4,2,0,0,Yes,No
+P00437,41,Female,White,Private,Emergency,Sepsis,11,Rehab,8,1,3,0,Yes,No
+P00438,51,Female,White,Medicaid,Emergency,Sepsis,10,Home,2,0,5,3,Yes,No
+P00439,61,Female,Hispanic,Medicaid,Emergency,AMI,7,SNF,5,0,2,0,No,No
+P00440,64,Female,Asian,Medicaid,Emergency,Pneumonia,2,Rehab,4,1,0,0,Yes,No
+P00441,55,Male,Black,Private,Emergency,Other,8,Home Health,5,2,1,0,No,No
+P00442,69,Male,Black,Private,Emergency,Heart Failure,5,Home,8,3,1,0,No,No
+P00443,61,Female,Black,Medicare,Elective,Other,6,Home,8,4,0,0,Yes,No
+P00444,95,Female,Black,Medicare,Elective,Sepsis,11,Home Health,17,0,0,1,Yes,Yes
+P00445,67,Female,White,Medicare,Emergency,AMI,3,Home Health,3,3,1,2,Yes,No
+P00446,44,Female,White,Medicare,Elective,COPD,4,Home,7,2,0,0,No,No
+P00447,73,Male,White,Medicare,Elective,Pneumonia,9,Home Health,7,5,0,0,No,No
+P00448,62,Male,Black,Medicare,Elective,Other,7,Home,7,0,2,0,Yes,No
+P00449,51,Female,White,Medicare,Emergency,Other,2,Rehab,4,1,2,0,No,No
+P00450,70,Male,White,Medicare,Emergency,Pneumonia,2,Rehab,3,0,0,0,Yes,No
+P00451,69,Female,White,Medicare,Urgent,Heart Failure,5,Home Health,6,0,4,0,No,No
+P00452,49,Male,White,Medicaid,Emergency,Sepsis,7,Home,2,1,2,0,No,No
+P00453,60,Male,White,Private,Emergency,Pneumonia,2,Home,11,3,1,0,No,Yes
+P00454,79,Female,White,Medicare,Emergency,Heart Failure,7,Home,8,3,2,0,Yes,No
+P00455,79,Male,Black,Self-Pay,Emergency,AMI,4,Home,4,4,2,0,Yes,No
+P00456,41,Female,Asian,Private,Emergency,COPD,5,SNF,3,2,0,0,Yes,No
+P00457,92,Female,Hispanic,Medicare,Urgent,Heart Failure,5,Rehab,12,3,1,1,No,Yes
+P00458,88,Male,Hispanic,Medicare,Emergency,COPD,2,Home Health,11,1,0,1,No,Yes
+P00459,78,Male,White,Medicare,Emergency,Sepsis,4,Home,10,2,3,1,Yes,Yes
+P00460,74,Female,Asian,Private,Emergency,Pneumonia,10,SNF,6,3,0,0,No,No
+P00461,64,Female,White,Medicare,Urgent,Other,7,Home,3,2,2,1,No,No
+P00462,65,Male,White,Private,Emergency,COPD,2,SNF,11,2,0,0,No,Yes
+P00463,63,Female,White,Medicare,Emergency,Sepsis,8,SNF,6,3,1,0,Yes,No
+P00464,56,Male,White,Medicaid,Urgent,COPD,2,Home,3,0,3,0,No,No
+P00465,49,Male,White,Medicare,Elective,Other,7,Home,2,1,1,1,No,No
+P00466,79,Female,White,Medicaid,Emergency,Other,11,Home,4,0,0,0,No,No
+P00467,95,Male,White,Private,Urgent,Other,4,SNF,9,3,0,1,No,No
+P00468,59,Male,Black,Private,Emergency,Heart Failure,10,Home,2,4,1,2,Yes,No
+P00469,61,Female,Black,Private,Emergency,Heart Failure,13,Home,4,3,0,0,No,No
+P00470,61,Male,White,Self-Pay,Urgent,Heart Failure,15,Home Health,6,1,0,2,Yes,No
+P00471,80,Female,White,Medicare,Emergency,COPD,7,Home,6,2,2,2,No,No
+P00472,62,Male,Hispanic,Medicare,Emergency,Heart Failure,3,SNF,8,1,1,0,No,No
+P00473,76,Male,Hispanic,Medicaid,Emergency,Pneumonia,5,Home,8,1,0,1,Yes,No
+P00474,83,Female,White,Private,Emergency,Other,6,Home,8,1,0,1,No,No
+P00475,75,Female,White,Private,Emergency,Sepsis,8,Home,9,0,2,0,Yes,No
+P00476,71,Male,White,Private,Elective,Sepsis,7,Home Health,12,2,3,3,No,Yes
+P00477,71,Male,Other,Medicaid,Emergency,Heart Failure,8,Home,10,4,0,0,Yes,Yes
+P00478,62,Male,Black,Medicare,Emergency,COPD,6,Home,3,1,3,0,No,No
+P00479,59,Female,White,Medicaid,Emergency,COPD,11,Home Health,4,0,2,0,No,No
+P00480,88,Male,White,Medicare,Urgent,Heart Failure,7,Home,11,1,1,1,Yes,Yes
+P00481,56,Male,Black,Medicare,Emergency,Heart Failure,9,Home,9,4,1,2,Yes,No
+P00482,35,Female,White,Medicare,Emergency,Heart Failure,9,Home Health,5,0,3,2,Yes,No
+P00483,72,Male,White,Medicare,Urgent,Other,9,SNF,2,0,2,3,Yes,No
+P00484,49,Male,White,Private,Emergency,COPD,11,SNF,5,0,0,0,No,No
+P00485,56,Female,White,Private,Emergency,Heart Failure,8,SNF,8,1,0,0,No,No
+P00486,66,Female,Asian,Private,Urgent,Other,10,Home Health,5,1,1,0,No,No
+P00487,57,Male,Other,Self-Pay,Urgent,Sepsis,7,Home,6,3,2,0,No,No
+P00488,77,Male,White,Medicare,Emergency,Heart Failure,10,SNF,8,1,0,0,Yes,No
+P00489,93,Male,Other,Medicaid,Emergency,AMI,2,Home,12,2,0,0,Yes,Yes
+P00490,64,Female,White,Private,Urgent,Heart Failure,8,Home Health,10,0,2,0,No,Yes
+P00491,73,Female,White,Medicare,Emergency,AMI,2,Home,10,2,1,0,No,Yes
+P00492,87,Female,White,Medicare,Emergency,Heart Failure,15,Home,9,3,0,0,Yes,No
+P00493,71,Male,White,Private,Emergency,Sepsis,7,SNF,5,5,1,0,Yes,No
+P00494,89,Female,Black,Medicare,Emergency,AMI,5,SNF,6,2,1,0,No,No
+P00495,74,Female,Asian,Private,Emergency,Pneumonia,2,Home,9,1,3,1,No,No
+P00496,71,Male,White,Private,Elective,Sepsis,8,Home,9,2,2,1,No,No
+P00497,75,Male,Hispanic,Private,Emergency,COPD,9,Home,7,2,0,1,No,No
+P00498,76,Female,Black,Private,Elective,COPD,2,Rehab,10,2,1,3,No,Yes
+P00499,72,Female,Other,Medicare,Emergency,Sepsis,3,Home,10,0,1,3,Yes,Yes
+P00500,81,Female,Black,Medicare,Urgent,Pneumonia,8,Home,11,0,3,1,Yes,Yes
+P00501,65,Female,White,Medicare,Elective,Other,9,Expired,2,2,2,0,Yes,No
+P00502,74,Female,Black,Medicare,Emergency,Sepsis,5,Home,7,2,2,0,No,No
+P00503,68,Female,Hispanic,Medicare,Urgent,Pneumonia,2,Home,10,2,1,0,No,Yes
+P00504,68,Male,White,Medicare,Emergency,Other,4,Home,5,2,1,1,No,No
+P00505,75,Male,White,Medicare,Emergency,Other,6,SNF,7,0,0,1,No,No
+P00506,61,Female,White,Private,Emergency,Sepsis,8,SNF,10,1,1,0,No,Yes
+P00507,95,Female,Black,Medicaid,Urgent,Heart Failure,8,Home,16,2,2,2,No,Yes
+P00508,64,Female,White,Private,Urgent,Sepsis,4,Home,6,3,1,0,Yes,No
+P00509,55,Male,Hispanic,Medicare,Emergency,Pneumonia,2,Home,2,1,2,1,Yes,No
+P00510,59,Male,Black,Private,Emergency,Sepsis,7,Home,2,1,3,0,Yes,No
+P00511,42,Male,White,Private,Urgent,COPD,8,Home Health,2,0,0,1,Yes,No
+P00512,70,Female,White,Private,Urgent,AMI,3,Home,4,2,0,0,No,No
+P00513,76,Male,Asian,Medicare,Emergency,Pneumonia,4,Home,3,0,1,2,Yes,No
+P00514,49,Female,White,Medicare,Emergency,Sepsis,11,SNF,9,2,2,1,Yes,No
+P00515,62,Male,Black,Medicare,Emergency,COPD,2,SNF,2,0,3,0,Yes,No
+P00516,89,Male,White,Private,Emergency,Pneumonia,5,SNF,13,1,1,0,No,Yes
+P00517,68,Male,Hispanic,Medicare,Emergency,AMI,4,SNF,7,4,0,3,No,No
+P00518,95,Male,White,Self-Pay,Urgent,Heart Failure,7,Rehab,13,2,2,0,Yes,Yes
+P00519,69,Male,White,Self-Pay,Elective,Other,3,Home,3,1,3,1,No,No
+P00520,52,Male,White,Medicaid,Emergency,AMI,9,Home Health,4,2,1,2,Yes,No
+P00521,55,Male,White,Private,Urgent,Pneumonia,2,Home Health,6,3,0,0,No,No
+P00522,76,Male,White,Medicare,Emergency,Heart Failure,10,SNF,10,1,0,0,No,Yes
+P00523,71,Male,Black,Medicare,Emergency,Pneumonia,7,Home,8,0,0,2,Yes,No
+P00524,61,Female,White,Medicare,Elective,Sepsis,10,Home,2,4,0,0,No,No
+P00525,75,Male,Hispanic,Medicaid,Emergency,Heart Failure,8,Home,10,0,0,0,No,Yes
+P00526,74,Female,Black,Private,Emergency,Sepsis,4,SNF,10,1,4,1,Yes,Yes
+P00527,79,Male,White,Medicare,Emergency,Pneumonia,3,Home,12,4,0,0,Yes,Yes
+P00528,58,Male,White,Medicaid,Emergency,Pneumonia,4,Rehab,4,0,4,0,No,No
+P00529,63,Male,Hispanic,Private,Emergency,Sepsis,9,Home Health,8,0,0,1,No,No
+P00530,41,Female,White,Private,Elective,Pneumonia,4,Home Health,5,0,0,0,No,No
+P00531,90,Male,White,Self-Pay,Emergency,COPD,2,Home,11,1,1,0,No,Yes
+P00532,84,Male,White,Medicaid,Emergency,Heart Failure,6,Rehab,12,5,0,1,Yes,Yes
+P00533,73,Male,White,Private,Emergency,Heart Failure,6,Home,12,0,1,1,Yes,Yes
+P00534,63,Female,White,Medicare,Emergency,Other,3,Home,2,0,0,0,No,No
+P00535,60,Male,White,Private,Urgent,Sepsis,6,Home Health,3,1,2,0,Yes,No
+P00536,70,Male,White,Medicaid,Emergency,Sepsis,5,Home Health,8,0,0,1,Yes,No
+P00537,73,Male,White,Medicare,Emergency,Sepsis,4,Home Health,10,0,0,1,No,Yes
+P00538,55,Female,White,Medicare,Emergency,AMI,9,Home Health,2,0,0,1,Yes,No
+P00539,83,Male,White,Medicaid,Emergency,Pneumonia,5,SNF,10,6,1,2,No,Yes
+P00540,43,Male,White,Self-Pay,Emergency,Other,2,Home,2,2,2,1,Yes,No
+P00541,78,Female,Black,Medicare,Emergency,AMI,6,Home Health,5,1,2,0,Yes,No
+P00542,35,Male,White,Medicaid,Emergency,Sepsis,12,Home,3,1,0,0,No,No
+P00543,93,Female,Hispanic,Medicare,Emergency,AMI,4,Home,13,1,1,1,No,Yes
+P00544,68,Female,Black,Private,Emergency,Heart Failure,5,Home,11,1,1,0,No,Yes
+P00545,68,Female,Other,Private,Emergency,Sepsis,10,SNF,8,4,2,2,Yes,No
+P00546,41,Female,Black,Medicare,Emergency,Heart Failure,5,SNF,6,0,0,0,No,No
+P00547,76,Male,Black,Medicare,Emergency,Pneumonia,5,Home,5,0,2,2,No,No
+P00548,82,Female,White,Private,Urgent,Other,4,Home,7,3,0,1,Yes,No
+P00549,62,Female,Asian,Medicare,Urgent,AMI,2,Home,2,1,1,0,No,No
+P00550,62,Female,White,Medicaid,Elective,Sepsis,8,Home,8,1,0,0,No,No
+P00551,75,Male,Asian,Medicare,Emergency,Other,2,Rehab,9,0,2,0,Yes,No
+P00552,59,Male,White,Private,Emergency,Pneumonia,2,Home,3,0,3,2,Yes,No
+P00553,69,Male,Hispanic,Medicare,Emergency,Other,5,Home,2,0,1,0,No,No
+P00554,95,Female,Black,Medicaid,Emergency,AMI,8,Home,13,1,1,0,Yes,Yes
+P00555,62,Male,White,Medicare,Urgent,COPD,2,Home Health,5,1,0,1,No,No
+P00556,80,Male,White,Private,Emergency,COPD,6,Home,9,2,2,0,No,No
+P00557,84,Female,Hispanic,Medicare,Emergency,Other,3,Rehab,3,3,0,0,Yes,No
+P00558,57,Female,Black,Private,Emergency,Sepsis,12,Rehab,4,3,1,2,Yes,No
+P00559,57,Female,White,Medicare,Emergency,Heart Failure,5,Rehab,7,1,0,0,No,No
+P00560,58,Female,Black,Medicaid,Urgent,Heart Failure,7,SNF,6,1,1,0,No,No
+P00561,69,Female,White,Medicare,Emergency,Heart Failure,9,Home,11,2,0,0,Yes,Yes
+P00562,79,Male,Black,Medicaid,Emergency,Sepsis,5,SNF,14,4,2,1,No,Yes
+P00563,56,Female,White,Medicare,Elective,Heart Failure,4,Home,5,0,0,0,No,No
+P00564,77,Female,Other,Medicare,Emergency,Other,5,Rehab,7,0,1,0,No,No
+P00565,69,Female,White,Medicare,Emergency,Other,2,Expired,9,0,3,0,Yes,No
+P00566,63,Female,White,Medicare,Urgent,Heart Failure,7,Rehab,2,1,0,4,Yes,No
+P00567,87,Female,Hispanic,Medicaid,Emergency,Heart Failure,8,Home Health,12,2,2,0,Yes,Yes
+P00568,76,Female,Black,Private,Emergency,AMI,4,Rehab,4,3,1,2,No,No
+P00569,75,Female,Other,Medicare,Emergency,COPD,4,Home,4,4,0,0,Yes,No
+P00570,84,Male,White,Medicare,Urgent,Heart Failure,18,Home Health,8,1,2,0,Yes,No
+P00571,91,Male,Hispanic,Medicare,Emergency,Sepsis,6,Home Health,15,2,0,1,No,Yes
+P00572,70,Female,White,Medicare,Emergency,Sepsis,5,Home,9,2,2,0,Yes,No
+P00573,65,Female,White,Medicaid,Elective,Sepsis,4,SNF,5,3,0,0,Yes,No
+P00574,82,Male,Hispanic,Medicare,Emergency,Heart Failure,8,SNF,8,3,0,2,Yes,No
+P00575,49,Female,Black,Medicare,Emergency,COPD,8,Home,2,0,2,1,No,No
+P00576,95,Female,White,Medicaid,Elective,Other,5,Home,9,5,1,1,Yes,No
+P00577,63,Female,White,Medicare,Emergency,Heart Failure,8,SNF,8,2,1,0,No,No
+P00578,59,Female,Black,Medicare,Emergency,Other,10,Home,2,1,0,0,No,No
+P00579,69,Female,Black,Private,Emergency,Pneumonia,5,Home,7,1,0,0,Yes,No
+P00580,60,Female,White,Medicare,Emergency,Heart Failure,7,Home Health,8,3,2,2,Yes,No
+P00581,51,Male,Hispanic,Medicare,Urgent,AMI,4,Home,2,2,1,1,No,No
+P00582,70,Female,White,Medicaid,Emergency,Other,12,Home,4,2,0,0,Yes,No
+P00583,55,Female,Other,Medicare,Emergency,Sepsis,13,Home,7,2,1,1,Yes,No
+P00584,77,Female,Hispanic,Medicare,Emergency,Pneumonia,3,Home,2,3,2,0,Yes,No
+P00585,83,Female,White,Medicare,Urgent,Heart Failure,12,SNF,5,3,0,0,No,No
+P00586,86,Female,Black,Medicaid,Emergency,Heart Failure,6,Home,14,5,0,1,No,Yes
+P00587,84,Male,White,Medicare,Emergency,Pneumonia,2,Home Health,8,6,3,4,Yes,No
+P00588,60,Male,White,Medicare,Emergency,Heart Failure,5,SNF,7,3,2,0,Yes,No
+P00589,85,Male,Other,Medicare,Urgent,Sepsis,4,Home,10,2,0,0,No,Yes
+P00590,63,Male,Other,Medicare,Elective,COPD,4,Home,4,1,3,0,No,No
+P00591,56,Female,Black,Medicare,Emergency,Pneumonia,2,Rehab,2,2,2,1,Yes,No
+P00592,74,Male,White,Medicare,Emergency,AMI,7,Home Health,4,0,2,2,Yes,No
+P00593,59,Male,White,Self-Pay,Elective,Sepsis,10,Home,4,3,2,1,Yes,No
+P00594,86,Female,White,Private,Emergency,Heart Failure,4,Rehab,11,2,0,2,Yes,Yes
+P00595,42,Male,Black,Self-Pay,Elective,Other,4,Home Health,4,2,1,2,Yes,No
+P00596,94,Female,Asian,Medicare,Emergency,AMI,2,SNF,14,3,2,0,Yes,Yes
+P00597,50,Male,Other,Medicare,Emergency,AMI,10,Home,5,0,0,0,No,No
+P00598,69,Male,White,Private,Emergency,Pneumonia,2,SNF,6,2,2,0,Yes,No
+P00599,73,Male,White,Medicare,Emergency,COPD,2,Home,6,0,2,2,No,No
+P00600,69,Male,White,Medicaid,Emergency,Pneumonia,5,Home Health,6,3,2,3,Yes,No
+P00601,76,Male,White,Medicaid,Urgent,AMI,6,Home,5,0,2,3,Yes,No
+P00602,77,Male,White,Private,Elective,COPD,12,SNF,7,4,0,2,Yes,No
+P00603,93,Male,White,Medicare,Emergency,COPD,4,SNF,8,2,2,0,Yes,No
+P00604,61,Female,Hispanic,Medicare,Emergency,Pneumonia,2,Home Health,4,1,2,0,No,No
+P00605,76,Female,Black,Private,Emergency,Heart Failure,5,SNF,10,0,1,1,Yes,Yes
+P00606,57,Male,White,Medicare,Emergency,Heart Failure,10,SNF,7,3,1,1,Yes,No
+P00607,87,Female,White,Medicaid,Emergency,COPD,7,SNF,9,0,1,0,No,No
+P00608,61,Male,Black,Medicare,Emergency,Sepsis,7,Home,9,2,0,2,No,No
+P00609,79,Female,Other,Medicare,Emergency,Heart Failure,4,Home Health,13,1,0,0,Yes,Yes
+P00610,72,Male,White,Medicaid,Urgent,COPD,5,Home Health,11,0,1,2,Yes,Yes
+P00611,84,Female,Black,Medicare,Urgent,AMI,2,Home,7,2,1,0,Yes,No
+P00612,61,Female,White,Medicaid,Emergency,Other,7,Home,8,3,1,2,No,No
+P00613,62,Female,Hispanic,Medicaid,Emergency,Sepsis,6,Rehab,6,4,0,2,Yes,No
+P00614,53,Female,White,Medicare,Emergency,Heart Failure,6,Home,6,1,0,1,Yes,No
+P00615,78,Female,Hispanic,Medicare,Emergency,AMI,4,Home,9,5,1,0,Yes,No
+P00616,67,Female,Other,Medicare,Emergency,Pneumonia,7,SNF,5,0,0,0,No,No
+P00617,53,Male,Black,Medicare,Emergency,Heart Failure,3,Home,3,5,2,0,Yes,No
+P00618,82,Female,White,Private,Emergency,Sepsis,3,SNF,15,3,0,1,Yes,Yes
+P00619,90,Female,White,Medicare,Emergency,AMI,2,Home,6,3,1,0,No,No
+P00620,73,Female,White,Medicare,Emergency,COPD,9,SNF,5,1,1,1,No,No
+P00621,72,Female,White,Medicaid,Elective,Pneumonia,2,Home,5,0,3,0,Yes,No
+P00622,62,Male,White,Self-Pay,Emergency,Heart Failure,9,Rehab,11,0,2,0,No,Yes
+P00623,52,Male,White,Medicare,Urgent,Sepsis,9,Home,8,4,0,0,No,No
+P00624,70,Female,Black,Private,Urgent,Heart Failure,5,Home,11,2,2,2,Yes,Yes
+P00625,57,Male,White,Medicare,Emergency,Sepsis,6,Home,6,0,0,0,Yes,No
+P00626,64,Male,Hispanic,Medicare,Emergency,Heart Failure,4,Home,10,2,0,0,Yes,Yes
+P00627,84,Male,White,Medicare,Elective,Other,4,Home,5,3,0,0,Yes,No
+P00628,46,Male,Asian,Medicare,Emergency,Pneumonia,3,Home Health,2,1,0,0,No,No
+P00629,52,Male,Asian,Medicare,Emergency,COPD,8,Home,5,0,1,0,Yes,No
+P00630,74,Female,Asian,Medicare,Emergency,Pneumonia,2,Rehab,9,2,2,0,No,No
+P00631,85,Male,White,Private,Elective,AMI,2,Home,8,0,0,2,No,No
+P00632,70,Male,White,Medicare,Emergency,Sepsis,4,Rehab,12,1,0,0,No,Yes
+P00633,85,Male,White,Medicare,Emergency,AMI,4,SNF,10,0,1,1,No,Yes
+P00634,41,Female,White,Private,Emergency,Sepsis,5,SNF,8,0,0,0,No,No
+P00635,83,Male,Other,Private,Emergency,Heart Failure,10,Home,15,1,0,0,No,Yes
+P00636,84,Male,White,Private,Urgent,Pneumonia,2,Home,10,2,2,1,No,Yes
+P00637,86,Female,Other,Medicare,Emergency,Heart Failure,4,Home,15,4,2,1,No,Yes
+P00638,58,Male,Hispanic,Medicare,Emergency,Heart Failure,11,SNF,2,1,0,1,No,No
+P00639,61,Male,Black,Medicaid,Urgent,Heart Failure,6,Home,6,1,1,0,No,No
+P00640,67,Male,White,Private,Emergency,Other,7,Home,2,0,0,0,No,No
+P00641,81,Male,White,Medicare,Urgent,Other,2,Home Health,10,0,1,0,No,Yes
+P00642,72,Female,Hispanic,Medicaid,Emergency,Sepsis,6,SNF,9,2,2,0,Yes,No
+P00643,61,Male,Other,Private,Emergency,COPD,9,Home Health,4,3,2,1,No,No
+P00644,72,Male,White,Private,Urgent,COPD,5,Home,3,0,0,1,No,No
+P00645,50,Male,White,Private,Urgent,Heart Failure,10,Home,2,1,1,0,No,No
+P00646,87,Female,Other,Medicare,Urgent,Pneumonia,6,Home,13,0,0,0,Yes,Yes
+P00647,83,Male,Black,Medicaid,Emergency,AMI,8,Home,8,0,1,0,No,No
+P00648,78,Male,Black,Medicare,Emergency,Other,4,Home,7,3,0,0,No,No
+P00649,68,Female,Hispanic,Private,Urgent,AMI,2,Home,10,1,0,0,No,Yes
+P00650,55,Male,White,Medicare,Urgent,COPD,2,SNF,4,4,0,2,Yes,No
+P00651,78,Female,Hispanic,Private,Emergency,Other,7,Home,4,2,3,0,Yes,No
+P00652,87,Female,Black,Private,Elective,COPD,6,Home,12,0,3,0,Yes,Yes
+P00653,72,Male,White,Medicare,Elective,AMI,8,Home,5,2,0,0,No,No
+P00654,68,Male,White,Medicare,Elective,Heart Failure,9,Home Health,11,3,0,1,No,Yes
+P00655,74,Male,White,Medicare,Emergency,Heart Failure,8,Home,10,3,1,1,No,Yes
+P00656,74,Male,Hispanic,Medicare,Emergency,Pneumonia,7,Home,5,1,1,0,Yes,No
+P00657,81,Female,Black,Medicare,Emergency,COPD,6,Home,5,2,0,0,Yes,No
+P00658,49,Male,Black,Medicaid,Emergency,AMI,6,SNF,2,1,1,2,Yes,No
+P00659,70,Female,Black,Medicare,Emergency,Heart Failure,8,Home,7,0,0,1,Yes,No
+P00660,74,Male,Black,Private,Emergency,Sepsis,7,SNF,13,0,0,4,Yes,Yes
+P00661,41,Male,White,Medicare,Emergency,Pneumonia,5,SNF,2,5,1,0,Yes,No
+P00662,55,Female,Black,Private,Urgent,Pneumonia,4,Home,4,3,0,0,No,No
+P00663,71,Female,White,Private,Emergency,Sepsis,12,SNF,9,1,5,0,No,No
+P00664,62,Male,Asian,Medicare,Emergency,COPD,12,Home,2,0,0,0,No,No
+P00665,65,Male,White,Medicare,Emergency,COPD,11,Home,5,1,0,1,No,No
+P00666,83,Male,White,Medicaid,Emergency,Heart Failure,11,Home,15,3,0,0,Yes,Yes
+P00667,76,Female,Hispanic,Self-Pay,Emergency,Pneumonia,8,SNF,10,3,1,0,No,Yes
+P00668,70,Female,Hispanic,Medicare,Emergency,Sepsis,5,Home,6,0,1,2,Yes,No
+P00669,70,Male,Black,Medicare,Emergency,Heart Failure,4,Home Health,5,3,0,1,No,No
+P00670,60,Male,White,Private,Urgent,Other,2,Home,5,4,0,0,No,No
+P00671,61,Female,White,Medicaid,Urgent,AMI,5,SNF,5,3,1,1,No,No
+P00672,63,Female,Hispanic,Medicaid,Emergency,Sepsis,7,Expired,9,0,0,2,No,No
+P00673,60,Female,White,Medicare,Emergency,Heart Failure,5,Home,4,2,1,3,No,No
+P00674,61,Male,Hispanic,Self-Pay,Emergency,Heart Failure,8,Home,3,4,2,0,Yes,No
+P00675,59,Female,Other,Medicare,Emergency,AMI,2,Expired,2,1,0,1,No,No
+P00676,83,Male,White,Medicaid,Emergency,Pneumonia,3,Home Health,12,1,1,0,Yes,Yes
+P00677,47,Female,White,Medicare,Urgent,Other,9,SNF,4,3,1,0,No,No
+P00678,78,Female,White,Medicare,Emergency,Other,4,Home Health,5,2,4,1,No,No
+P00679,70,Female,White,Medicare,Emergency,Heart Failure,15,SNF,9,3,2,0,No,No
+P00680,57,Female,White,Medicare,Emergency,Pneumonia,3,SNF,7,1,0,0,No,No
+P00681,66,Male,Black,Medicare,Urgent,Other,6,Home,2,1,1,0,No,No
+P00682,82,Male,Black,Medicare,Emergency,Other,2,Home Health,7,2,0,0,No,No
+P00683,76,Female,White,Medicare,Emergency,COPD,5,Home,11,2,1,2,No,Yes
+P00684,82,Male,White,Self-Pay,Urgent,AMI,5,Home Health,8,0,0,0,Yes,No
+P00685,72,Male,White,Private,Emergency,Pneumonia,9,Home Health,3,3,1,0,Yes,No
+P00686,84,Male,White,Medicare,Emergency,Pneumonia,3,Home,11,3,1,0,Yes,Yes
+P00687,85,Male,Asian,Medicaid,Urgent,Other,6,Home,8,3,1,0,No,No
+P00688,71,Female,White,Medicare,Urgent,AMI,3,Home,4,0,2,1,Yes,No
+P00689,68,Male,White,Medicaid,Urgent,COPD,13,Home,5,1,0,1,Yes,No
+P00690,66,Female,Black,Medicaid,Emergency,Other,9,Home,4,4,2,0,No,No
+P00691,89,Male,White,Private,Urgent,AMI,13,Home,5,1,2,2,No,No
+P00692,95,Male,White,Medicare,Urgent,Heart Failure,10,Home,17,2,1,0,No,Yes
+P00693,92,Male,White,Medicare,Emergency,COPD,6,Rehab,11,0,0,0,Yes,Yes
+P00694,85,Male,White,Medicaid,Urgent,Pneumonia,2,Home,10,2,2,0,No,Yes
+P00695,76,Female,White,Self-Pay,Urgent,Heart Failure,4,SNF,12,2,0,0,No,Yes
+P00696,42,Female,White,Medicaid,Urgent,COPD,9,SNF,8,2,0,0,No,No
+P00697,67,Male,White,Medicare,Elective,AMI,5,Home,9,1,2,0,No,No
+P00698,67,Male,White,Private,Elective,Heart Failure,7,Home,7,1,2,0,No,No
+P00699,61,Male,White,Medicare,Emergency,Sepsis,8,Home,5,2,3,2,No,No
+P00700,61,Female,White,Medicare,Emergency,Other,6,SNF,2,1,1,0,No,No
